@@ -1,0 +1,28 @@
+
+# Agentes de IA para Estatística e Data Science
+
+## Introdução
+
+Nos últimos anos, os avanços em modelos de linguagem de larga escala (LLMs) transformaram significativamente o campo da Inteligência Artificial, especialmente com o surgimento de IAs generativas capazes de compreender e gerar linguagem natural com alta fluidez e coerência. Ferramentas como o ChatGPT, Claude e Gemini demonstraram o potencial dessas tecnologias em tarefas como redação automática, geração de código, sumarização de textos e, mais recentemente, apoio à análise de dados.
+
+No contexto de Estatística e Ciência de dados, esse avanço abre caminho para a construção de agentes inteligentes capazes de automatizar fluxos de trabalho analíticos, desde a leitura e pré-processamento de dados, construção de modelos e interpretação de resultados até a elaboração de um relatório final. Esses agentes operam como sistemas compostos por LLMs, conectados a ferramentas externas, com capacidade de planejar e executar tarefas complexas de forma autônoma ou assistida.
+
+Este Trabalho de Conclusão de Curso propõe a construção de workflows inteligentes baseados em agentes de IA generativa para auxiliar estatísticos, analistas e cientistas de dados no processo de análise exploratória, modelagem e interpretação de resultados. O foco está em explorar as vantagens e limitações dessa abordagem, bem como demonstrar seu funcionamento na prática.
+
+## Metodologia
+
+Nesta etapa, são apresentados os principais conceitos envolvidos no desenvolvimento de agentes de IA para Data Science:
+
+Os LLMs representam uma das inovações mais significativas no campo do Processamento de Linguagem Natural (NLP) e da inteligência artificial nos últimos anos. Esses modelos são treinados sobre grandes corpora de texto, frequentemente compostos por bilhões ou trilhões de palavras, provenientes de diversas fontes como livros, artigos científicos, sites da internet, códigos de programação e interações humanas. O objetivo do treinamento é permitir que o modelo aprenda os padrões estatísticos e semânticos da linguagem humana, tornando-o capaz de gerar, completar ou interpretar textos com alto grau de coerência e contextualização. A base técnica dos LLMs está na arquitetura de redes neurais chamada Transformer, proposta por **Vaswani et al. (2017)**. Durante a fase de inferência, os LLMs recebem um texto de entrada, chamado de _prompt_, que pode ser uma pergunta, comando, instrução ou qualquer outro tipo de contexto textual. A partir desse prompt, o modelo gera uma resposta prevendo um token por vez, com base nos tokens anteriores e no contexto fornecido. 
+
+Tokens são unidades discretas que podem representar palavras inteiras, partes de palavras ou sinais de pontuação, conforme definido pelo processo de tokenização adotado pelo modelo. Esse mecanismo permite que os LLMs realizem uma ampla gama de tarefas linguísticas, incluindo tradução automática, resumo de textos, geração de código, resposta a perguntas, classificação de sentimentos, entre outras.
+
+Outro aspecto técnico importante relacionado ao funcionamento dos LLMs é a janela de contexto, que se refere ao número máximo de tokens que o modelo pode processar em uma única inferência. Essa janela representa a quantidade total de entrada (prompt) mais saída (resposta) que o modelo consegue considerar simultaneamente. Em outras palavras, trata-se do limite de memória de curto prazo do modelo, que influencia diretamente sua capacidade de compreender contextos longos ou manter coerência em textos extensos. Quando esse limite é ultrapassado, tokens mais antigos do início da sequência são descartados, o que pode comprometer a continuidade ou a precisão da resposta gerada. O tamanho da janela de contexto varia conforme o modelo — por exemplo, o GPT-4 possui uma janela de até 8.192 tokens, enquanto versões mais recentes como o GPT-4.1 podem suportar até 1.047.576 tokens. Essa limitação técnica impõe desafios no uso de LLMs para tarefas que envolvem grandes volumes de texto, como análise documental, conversas prolongadas ou códigos complexos, exigindo o uso de estratégias como truncamento, resumos intermediários ou divisão em blocos para contornar tais restrições. **fonte openai?**
+
+- **Embeddings**: vetores que representam o significado de textos, permitindo buscas semânticas e etc...
+- **Modelos de raciocínio e execução**
+- **Workflow tradicional de IA vs. flow baseado em agentes**
+
+## Experimentos
+
+Em desenvolvimento...
