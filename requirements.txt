@@ -1,0 +1,9 @@
+pandas>=2.0.0
+matplotlib>=3.7.0
+streamlit>=1.30.0
+python-dotenv>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-experimental>=0.0.49
+openpyxl>=3.1.2  # Para ler arquivos Excel
+pyarrow>=14.0.1  # Para ler arquivos Parquet 
