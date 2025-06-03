@@ -87,7 +87,7 @@ if arquivo is not None:
     except Exception as e:
         st.error(f'Erro ao carregar o arquivo: {str(e)}')
 else:
-    st.warning('Por favor, faça o upload de um arquivo para começar a análise. Nenhum arquivo carregado ainda.')
+    st.warning('Por favor, faça o upload de um arquivo para começar a análise.')
 
 def descritiva():
     if df is None:
